@@ -1,0 +1,24 @@
+# GitHub Pages configuration
+title: "创意街区探索工具"
+description: "移动端高保真设计 - Creative Block Exploration Tool"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://block-exploration.dennydanohoh.github.io" # the base hostname & protocol for your site
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - README.md
+  - LICENSE
+  - node_modules/
+  - vendor/
+  - .vscode/
+  - .idea/
+
+# Custom variables
+author: "dennydanohoh"
+github_username: "dennydanohoh"
