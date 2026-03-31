@@ -233,10 +233,82 @@ a {
   border-radius: 999px;
 }
 
+/* 优化chip和tag组件 */
+.chip,
+.tag {
+  min-height: var(--space-10); /* 40px */
+  padding: var(--space-2) var(--space-4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.chip:hover,
+.tag:hover {
+  background: rgba(255, 250, 242, 0.95);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* 操作按钮组样式 */
+.action-buttons {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+/* 大号操作按钮 */
+.action-btn-large {
+  min-height: var(--space-14); /* 56px */
+  min-width: var(--space-14);
+  padding: var(--space-4) var(--space-6);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* 主要操作按钮 */
+.primary-action {
+  background: var(--accent);
+  color: white;
+  border: none;
+}
+
+.primary-action:hover {
+  background: #b85d30;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* 次要操作按钮 */
+.secondary-action {
+  background: var(--panel);
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.secondary-action:hover {
+  background: rgba(255, 250, 242, 0.95);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
 /* 基础按钮样式 */
 .icon-btn {
-  min-width: var(--space-11); /* 44px */
-  min-height: var(--space-11);
+  min-width: var(--space-12); /* 48px - 增加4px */
+  min-height: var(--space-12);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -244,6 +316,15 @@ a {
   border: 1px solid var(--line);
   color: var(--ink);
   font-size: var(--text-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* 悬停效果 */
+.icon-btn:hover {
+  background: rgba(255, 250, 242, 0.95);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 
 .ui-icon {
@@ -519,17 +600,28 @@ a {
 .ghost-btn,
 .accent-btn,
 .tab-pill {
-  min-height: var(--space-11); /* 44px */
-  min-width: var(--space-11);
-  padding: 0 var(--space-5); /* 0 20px */
+  min-height: var(--space-12); /* 48px - 增加4px */
+  min-width: var(--space-12);
+  padding: var(--space-3) var(--space-6); /* 12px 24px - 增加垂直内边距 */
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border: 1px solid transparent;
-  font-size: var(--text-sm);
+  font-size: var(--text-base); /* 16px - 增加字体大小 */
   font-weight: 600;
-  line-height: 1;
-  gap: var(--space-2); /* 8px */
+  line-height: 1.2;
+  gap: var(--space-3); /* 12px - 增加图标间距 */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: var(--radius-lg); /* 使用更大的圆角 */
+}
+
+/* 悬停效果 */
+.ghost-btn:hover,
+.accent-btn:hover,
+.tab-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 
 .btn-icon {

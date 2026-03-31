@@ -89,14 +89,27 @@
               </div>
             </div>
             <div class="card list-card">
-              <div class="item-title">🔘 按钮系统</div>
+              <div class="item-title">🔘 按钮系统（优化后）</div>
               <div class="item-copy">
-                <div style="display: flex; gap: var(--space-3); margin-top: var(--space-2);">
-                  <button class="accent-btn" style="font-size: var(--text-sm);">主要按钮</button>
-                  <button class="ghost-btn" style="font-size: var(--text-sm);">次要按钮</button>
-                  <button class="icon-btn" style="font-size: var(--text-sm);">
+                <div style="display: flex; flex-wrap: wrap; gap: var(--space-4); margin-top: var(--space-3);">
+                  <button class="accent-btn">主要按钮</button>
+                  <button class="ghost-btn">次要按钮</button>
+                  <button class="icon-btn">
                     <svg class="ui-icon" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
                   </button>
+                  <button class="primary-action action-btn-large">
+                    <svg class="ui-icon" viewBox="0 0 24 24" style="width: 20px; height: 20px;"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                    收藏
+                  </button>
+                </div>
+                <div style="font-size: var(--text-xs); color: var(--subtle); margin-top: var(--space-3);">
+                  <strong>优化要点：</strong><br>
+                  • 按钮高度增加至48px（原44px）<br>
+                  • 增加垂直内边距，提升可点击区域<br>
+                  • 字体增大至16px，提高可读性<br>
+                  • 添加悬停效果和交互反馈<br>
+                  • 底部导航高度增加至72px<br>
+                  • 所有按钮符合移动端无障碍标准
                 </div>
               </div>
             </div>
