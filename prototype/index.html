@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>一期低保真原型总览</title>
+    <style>
+      :root {
+        --bg: #f4f1ea;
+        --paper: #fffdf8;
+        --ink: #1f1b16;
+        --line: #5d5448;
+        --muted: #7e7364;
+        --accent: #c96c3a;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "PingFang SC", "Noto Sans SC", sans-serif;
+        background: linear-gradient(180deg, #efe7d8 0%, var(--bg) 100%);
+        color: var(--ink);
+      }
+      .wrap {
+        max-width: 1380px;
+        margin: 0 auto;
+        padding: 32px 24px 56px;
+      }
+      .hero {
+        margin-bottom: 24px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 40px;
+        line-height: 1.05;
+      }
+      p {
+        margin: 0;
+        max-width: 840px;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+      .card {
+        background: var(--paper);
+        border: 2px solid var(--line);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(31, 27, 22, 0.08);
+      }
+      .card-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 16px;
+        border-bottom: 2px solid var(--line);
+        background: #f8f1e5;
+      }
+      .card-header strong {
+        font-size: 18px;
+      }
+      .meta {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      img {
+        display: block;
+        width: 100%;
+        background: #f3eee2;
+      }
+      .footer {
+        margin-top: 24px;
+        padding: 14px 16px;
+        background: #fbf7ef;
+        border: 2px dashed var(--line);
+        border-radius: 18px;
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent);
+      }
+      @media (max-width: 980px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        h1 {
+          font-size: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <h1>创意街区探索工具<br />一期低保真原型</h1>
+        <p>
+          这版原型聚焦一期 MVP：发现、搜索、地点详情、后台录入。页面结构按“地点决策工具”而不是“点评社区”来设计，重点突出图片氛围、实用信息、代表店铺和第三方内容跳转。
+        </p>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <div class="card-header">
+            <strong>01 首页 / 发现页</strong>
+            <span class="meta">入口页</span>
+          </div>
+          <img src="./01-home-discovery.svg" alt="首页低保真原型" />
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <strong>02 搜索结果页</strong>
+            <span class="meta">高密度筛选</span>
+          </div>
+          <img src="./02-search-results.svg" alt="搜索结果页低保真原型" />
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <strong>03 地点详情页</strong>
+            <span class="meta">核心决策页</span>
+          </div>
+          <img src="./03-place-detail.svg" alt="地点详情页低保真原型" />
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <strong>04 后台地点编辑页</strong>
+            <span class="meta">运营录入</span>
+          </div>
+          <img src="./04-admin-editor.svg" alt="后台编辑页低保真原型" />
+        </article>
+      </section>
+
+      <div class="footer">
+        相关说明文档：
+        <a href="../一期信息架构与页面原型.md">一期信息架构与页面原型.md</a>
+      </div>
+    </div>
+  </body>
+</html>

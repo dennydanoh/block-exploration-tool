@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>移动登录继续</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="screen-shell">
+      <main class="screen">
+        <header class="topbar subpage">
+          <a class="nav-back" href="./home.html">
+            <span class="icon-btn"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-chevron-left"></use></svg></span>
+          </a>
+          <div class="nav-title">账号中心</div>
+          <div class="nav-spacer"></div>
+        </header>
+
+        <section class="page-intro">
+          <div class="page-kicker">Account</div>
+          <h1 class="page-title">登录 / 继续</h1>
+          <div class="page-subtitle">没注册过也可以直接继续，系统会自动进入首次注册流程。</div>
+        </section>
+
+        <section class="hero-card">
+          <h2 class="headline" style="font-size:28px;">输入账号后继续，没注册过也能直接开始。</h2>
+        </section>
+
+        <section class="section">
+          <article class="card list-card">
+            <div class="section-header">
+              <h2 class="section-title">登录 / 继续</h2>
+            </div>
+            <p class="copy" style="margin-top: 0;">
+              输入手机号或邮箱后继续。如果没有账号，系统会自动进入首次注册。
+            </p>
+            <div class="form-grid">
+              <div class="field">手机号 / 邮箱</div>
+              <div class="field" id="code-login">密码或验证码</div>
+            </div>
+            <div class="action-row" style="margin-top: 16px;">
+              <a class="accent-btn" href="./profile.html">
+                <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-arrow-right"></use></svg>
+                <span>继续</span>
+              </a>
+              <a class="ghost-btn" href="#code-login">
+                <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-shield-check"></use></svg>
+                <span>验证码</span>
+              </a>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

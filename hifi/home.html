@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页 / 发现页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">逛</div>
+          <div>
+            <div class="brand-title">街区漫游</div>
+            <div class="brand-subtitle">找到一个值得你专程去逛的地方</div>
+          </div>
+        </div>
+        <nav class="nav">
+          <span class="nav-pill active">发现</span>
+          <span class="nav-pill">城市</span>
+          <span class="nav-pill">主题策展</span>
+          <span class="nav-pill">周末推荐</span>
+          <a class="nav-pill" href="./login.html">登录</a>
+          <a class="nav-pill" href="./profile.html">个人中心</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="search-bar" style="margin-top: 0;">
+          <div class="search-input">
+            <div>
+              <div class="search-label">搜索地点</div>
+              <div class="search-value">例如：深圳 南头古城 / 北京 鼓楼 / 适合拍照的街区</div>
+            </div>
+          </div>
+          <div class="search-meta">
+            <span class="chip active">历史街区</span>
+            <span class="chip">创意园区</span>
+            <span class="chip">咖啡密集</span>
+            <span class="chip">夜逛友好</span>
+          </div>
+          <button class="accent-button">开始探索</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">重点城市入口</h2>
+          </div>
+          <a class="text-button" href="./search.html">进入搜索结果</a>
+        </div>
+        <div class="city-row">
+          <div class="city-badge">
+            <strong>北京</strong>
+            <span>胡同、历史街区、夜间散步路线更强。</span>
+          </div>
+          <div class="city-badge">
+            <strong>上海</strong>
+            <span>买手店、街景审美、咖啡和选物密度高。</span>
+          </div>
+          <div class="city-badge">
+            <strong>深圳</strong>
+            <span>城市更新片区和创意园区更适合周末半天逛。</span>
+          </div>
+          <div class="city-badge">
+            <strong>广州</strong>
+            <span>老街区、骑楼与新消费品牌混合感更强。</span>
+          </div>
+          <div class="city-badge">
+            <strong>成都</strong>
+            <span>更松弛，更适合慢节奏闲逛和小馆子串联。</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">编辑精选街区</h2>
+          </div>
+          <button class="ghost-button">查看全部</button>
+        </div>
+
+        <div class="grid-3">
+          <article class="card place-card">
+            <div class="place-visual nantou">
+              <span class="visual-caption">旧城肌理 + 新店铺密度高</span>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span>深圳 · 南山区</span>
+                <span>3-5 小时</span>
+              </div>
+              <h3 class="card-title">南头古城</h3>
+              <div class="tag-row">
+                <span class="tag">历史街区</span>
+                <span class="tag">咖啡多</span>
+                <span class="tag">适合傍晚</span>
+              </div>
+              <p class="card-copy">
+                适合把旧城巷子、独立小店和咖啡店放在同一次散步里逛完。
+              </p>
+              <div class="stat-row" style="margin-top: 14px;">
+                <span class="stat-pill">参考消费：免费进入</span>
+                <span class="stat-pill">气质：松弛 / 有层次</span>
+                <span class="stat-pill">2,468 人收藏</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card place-card">
+            <div class="place-visual gulou">
+              <span class="visual-caption">胡同街景 + 夜逛氛围感</span>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span>北京 · 东城区</span>
+                <span>半天</span>
+              </div>
+              <h3 class="card-title">鼓楼片区</h3>
+              <div class="tag-row">
+                <span class="tag">胡同漫游</span>
+                <span class="tag">夜逛友好</span>
+                <span class="tag">周边可串联</span>
+              </div>
+              <p class="card-copy">
+                更适合边走边看店和街景，不是商场式逛法，而是路线型漫游。
+              </p>
+              <div class="stat-row" style="margin-top: 14px;">
+                <span class="stat-pill">参考消费：30 - 80 / 人</span>
+                <span class="stat-pill">推荐时段：傍晚</span>
+                <span class="stat-pill">1,932 人收藏</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card place-card">
+            <div class="place-visual wukang">
+              <span class="visual-caption">街景审美 + 买手店密集</span>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span>上海 · 徐汇区</span>
+                <span>4-6 小时</span>
+              </div>
+              <h3 class="card-title">武康路安福路</h3>
+              <div class="tag-row">
+                <span class="tag">适合拍照</span>
+                <span class="tag">买手店</span>
+                <span class="tag">周末高频</span>
+              </div>
+              <p class="card-copy">
+                街景辨识度高，适合把咖啡、服饰和选物店串联成一条路线。
+              </p>
+              <div class="stat-row" style="margin-top: 14px;">
+                <span class="stat-pill">参考消费：中高</span>
+                <span class="stat-pill">人流：周末较高</span>
+                <span class="stat-pill">3,184 人收藏</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">主题筛选</h2>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <article class="card detail-panel">
+            <div class="tag-row">
+              <span class="chip active">适合拍照</span>
+              <span class="chip">咖啡密集</span>
+              <span class="chip">旧城更新</span>
+              <span class="chip">夜逛友好</span>
+              <span class="chip">适合约会</span>
+              <span class="chip">独立品牌</span>
+              <span class="chip">步行友好</span>
+              <span class="chip">文创氛围</span>
+            </div>
+          </article>
+
+          <article class="card detail-panel">
+            <div class="tag-row">
+              <span class="chip active">周末半天</span>
+              <span class="chip">约会散步</span>
+              <span class="chip">朋友见面</span>
+              <span class="chip">夜间闲逛</span>
+              <span class="chip">顺路喝咖啡</span>
+              <span class="chip">边走边拍</span>
+              <span class="chip">轻度购物</span>
+              <span class="chip">路线串联</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

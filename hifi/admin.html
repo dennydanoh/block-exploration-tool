@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>后台地点编辑页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="admin-shell">
+        <aside class="admin-nav">
+          <h2>街区漫游知识台</h2>
+          <div class="admin-menu">
+            <span class="admin-link active">知识卡片</span>
+            <span class="admin-link">图片来源</span>
+            <span class="admin-link">外部链接</span>
+            <span class="admin-link">标签体系</span>
+            <span class="admin-link">推荐位</span>
+          </div>
+        </aside>
+
+        <div class="admin-main">
+          <header class="card admin-toolbar">
+            <div>
+              <div class="section-note">地点知识卡片</div>
+              <h1 class="section-title" style="margin: 4px 0 0;">南头古城</h1>
+            </div>
+            <div class="action-row">
+              <button class="ghost-button">查看原链接</button>
+              <button class="ghost-button">更新摘要</button>
+              <button class="accent-button">发布卡片</button>
+            </div>
+          </header>
+
+          <section class="admin-grid">
+            <article class="card form-card">
+              <div class="section-header">
+                <div>
+                  <h2 class="section-title" style="font-size: 30px;">基础信息</h2>
+                </div>
+              </div>
+
+              <div class="form-grid">
+                <div class="field">地点名称：南头古城</div>
+                <div class="field">地点类型：历史街区</div>
+                <div class="field">城市：深圳</div>
+                <div class="field">区域：南山区</div>
+                <div class="field">来源平台：小红书 / 大众点评 / 官方站点</div>
+                <div class="field">卡片状态：已汇总</div>
+              </div>
+
+              <div class="mini-title">一句话描述</div>
+              <div class="field">旧城纹理与新消费品牌并存，适合周末慢逛。</div>
+
+              <div class="mini-title">街区介绍</div>
+              <div class="textarea">
+                适合喜欢旧城空间、咖啡店、小型展览和拍照街景的用户。建议把这里当作半天路线而不是单点打卡地。
+              </div>
+
+              <div class="mini-title">实用信息</div>
+              <div class="form-grid">
+                <div class="field">参考营业时间：10:00 - 22:00</div>
+                <div class="field">消费参考：免费进入 / 中等</div>
+                <div class="field">推荐时段：傍晚</div>
+                <div class="field">汇总时间：2026-03-30</div>
+              </div>
+
+              <div class="mini-title">标签</div>
+              <div class="tag-row">
+                <span class="chip active">历史街区</span>
+                <span class="chip active">咖啡多</span>
+                <span class="chip">适合拍照</span>
+                <span class="chip">适合傍晚</span>
+                <span class="chip">周末半天</span>
+              </div>
+            </article>
+
+            <div class="side-stack">
+              <article class="card side-card">
+                <div class="section-header">
+                  <div>
+                    <h2 class="section-title" style="font-size: 28px;">图片来源</h2>
+                  </div>
+                </div>
+                <div class="upload-zone">展示图片时标注平台和用户名称来源</div>
+                <div class="image-strip">
+                  <div class="image-tile" style="min-height: 96px;"></div>
+                  <div class="image-tile" style="min-height: 96px;"></div>
+                  <div class="image-tile" style="min-height: 96px;"></div>
+                  <div class="image-tile" style="min-height: 96px;"></div>
+                </div>
+              </article>
+
+              <article class="card side-card">
+                <div class="section-header">
+                  <div>
+                    <h2 class="section-title" style="font-size: 28px;">店铺参考</h2>
+                  </div>
+                </div>
+                <div class="shop-list">
+                  <div class="admin-item">某咖啡店 / 小红书公开内容汇总 / 38 - 52 元</div>
+                  <div class="admin-item">某文创选物店 / 点评公开内容汇总 / 顺路逛</div>
+                  <div class="admin-item">某小馆 / 官方站点和点评均出现</div>
+                </div>
+                <button class="ghost-button" style="margin-top: 14px;">更新店铺参考</button>
+              </article>
+
+              <article class="card side-card">
+                <div class="section-header">
+                  <div>
+                    <h2 class="section-title" style="font-size: 28px;">来源链接</h2>
+                  </div>
+                </div>
+                <div class="shop-list">
+                  <div class="admin-item">小红书帖子合集 / 帖子 / 已引用</div>
+                  <div class="admin-item">大众点评链接 / 评价 / 已引用</div>
+                  <div class="admin-item">公众号文章 / 官方 / 已引用</div>
+                </div>
+                <button class="ghost-button" style="margin-top: 14px;">查看全部来源</button>
+              </article>
+
+              <article class="card side-card">
+                <div class="section-header">
+                  <div>
+                    <h2 class="section-title" style="font-size: 28px;">回答预览</h2>
+                  </div>
+                </div>
+                <div class="preview-card"></div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

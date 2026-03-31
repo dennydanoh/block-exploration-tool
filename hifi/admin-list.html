@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>知识卡片列表</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="admin-shell">
+        <aside class="admin-nav">
+          <h2>街区漫游知识台</h2>
+          <div class="admin-menu">
+            <span class="admin-link active">知识卡片</span>
+            <span class="admin-link">图片来源</span>
+            <span class="admin-link">外部链接</span>
+            <span class="admin-link">标签体系</span>
+            <span class="admin-link">推荐位</span>
+          </div>
+        </aside>
+
+        <div class="admin-main">
+          <header class="card admin-toolbar">
+            <div>
+              <div class="section-note">后台列表</div>
+              <h1 class="section-title" style="margin: 4px 0 0;">知识卡片列表</h1>
+            </div>
+            <div class="action-row">
+              <button class="ghost-button">筛选</button>
+              <button class="accent-button">新建卡片</button>
+            </div>
+          </header>
+
+          <article class="card detail-panel">
+            <div class="search-bar" style="margin-top: 0;">
+              <div class="search-input">
+                <div>
+                  <div class="search-label">搜索街区 / 城市 / 状态</div>
+                  <div class="search-value">南头古城</div>
+                </div>
+              </div>
+              <div class="search-meta">
+                <span class="chip active">已发布</span>
+                <span class="chip">待完善</span>
+                <span class="chip">深圳</span>
+                <span class="chip">北京</span>
+              </div>
+            </div>
+
+            <div class="shop-list" style="margin-top: 20px;">
+              <div class="admin-item">
+                <div class="item-head">
+                  <div class="item-title">南头古城</div>
+                  <span class="chip active">已发布</span>
+                </div>
+                <div class="item-copy">深圳 / 小红书 + 大众点评 + 官方站点 / 最近更新 2026-03-31</div>
+              </div>
+              <div class="admin-item">
+                <div class="item-head">
+                  <div class="item-title">鼓楼片区</div>
+                  <span class="chip">待完善</span>
+                </div>
+                <div class="item-copy">北京 / 来源已补齐，图片来源待补充 / 最近更新 2026-03-30</div>
+              </div>
+              <div class="admin-item">
+                <div class="item-head">
+                  <div class="item-title">武康路安福路</div>
+                  <span class="chip active">已发布</span>
+                </div>
+                <div class="item-copy">上海 / 已上线 / 收藏数高 / 最近更新 2026-03-29</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

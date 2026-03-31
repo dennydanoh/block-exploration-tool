@@ -1,0 +1,73 @@
+<svg width="1440" height="1200" viewBox="0 0 1440 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1200" fill="#F4F1EA"/>
+  <rect x="56" y="40" width="1328" height="88" rx="20" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="92" y="92" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">街区漫游</text>
+  <rect x="320" y="60" width="640" height="48" rx="24" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="352" y="91" fill="#726758" font-size="20" font-family="Arial, PingFang SC, sans-serif">搜索城市、街区、关键词，例如：深圳 南头古城</text>
+  <rect x="1200" y="60" width="128" height="48" rx="24" fill="#C96C3A"/>
+  <text x="1240" y="91" fill="white" font-size="20" font-family="Arial, PingFang SC, sans-serif">搜索</text>
+
+  <rect x="56" y="156" width="1328" height="248" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="92" y="214" fill="#1F1B16" font-size="46" font-family="Arial, PingFang SC, sans-serif" font-weight="700">先找到一个值得专程去逛的街区</text>
+  <text x="92" y="258" fill="#726758" font-size="24" font-family="Arial, PingFang SC, sans-serif">看氛围、看店铺、看大概花费，再跳去真实帖子继续判断</text>
+  <rect x="92" y="300" width="136" height="40" rx="20" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="122" y="326" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">历史街区</text>
+  <rect x="242" y="300" width="136" height="40" rx="20" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="272" y="326" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">创意园区</text>
+  <rect x="392" y="300" width="136" height="40" rx="20" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="422" y="326" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">咖啡密集</text>
+  <rect x="542" y="300" width="136" height="40" rx="20" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="572" y="326" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">适合拍照</text>
+  <rect x="1000" y="190" width="320" height="170" rx="18" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="1030" y="230" fill="#1F1B16" font-size="20" font-family="Arial, PingFang SC, sans-serif">精选街区示例</text>
+  <rect x="1030" y="248" width="260" height="28" rx="14" fill="#E6DED0"/>
+  <rect x="1030" y="288" width="220" height="20" rx="10" fill="#E6DED0"/>
+  <rect x="1030" y="320" width="240" height="20" rx="10" fill="#E6DED0"/>
+
+  <text x="56" y="468" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">热门城市</text>
+  <rect x="56" y="490" width="1328" height="88" rx="24" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <rect x="92" y="514" width="140" height="40" rx="20" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="144" y="540" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">北京</text>
+  <rect x="250" y="514" width="140" height="40" rx="20" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="302" y="540" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">上海</text>
+  <rect x="408" y="514" width="140" height="40" rx="20" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="460" y="540" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">深圳</text>
+  <rect x="566" y="514" width="140" height="40" rx="20" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="618" y="540" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">广州</text>
+  <rect x="724" y="514" width="140" height="40" rx="20" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="776" y="540" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">成都</text>
+  <rect x="882" y="514" width="140" height="40" rx="20" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="934" y="540" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">杭州</text>
+
+  <text x="56" y="640" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">精选街区</text>
+
+  <rect x="56" y="668" width="416" height="420" rx="24" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <rect x="80" y="692" width="368" height="190" rx="16" fill="#E6DED0"/>
+  <text x="80" y="922" fill="#1F1B16" font-size="30" font-family="Arial, PingFang SC, sans-serif" font-weight="700">南头古城</text>
+  <text x="80" y="954" fill="#726758" font-size="20" font-family="Arial, PingFang SC, sans-serif">深圳 · 南山区</text>
+  <rect x="80" y="974" width="104" height="32" rx="16" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="104" y="995" fill="#1F1B16" font-size="15" font-family="Arial, PingFang SC, sans-serif">历史街区</text>
+  <rect x="194" y="974" width="104" height="32" rx="16" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="224" y="995" fill="#1F1B16" font-size="15" font-family="Arial, PingFang SC, sans-serif">咖啡多</text>
+  <text x="80" y="1040" fill="#4F473E" font-size="18" font-family="Arial, PingFang SC, sans-serif">旧城肌理 + 新店铺混合，适合半天 Citywalk</text>
+
+  <rect x="512" y="668" width="416" height="420" rx="24" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <rect x="536" y="692" width="368" height="190" rx="16" fill="#E6DED0"/>
+  <text x="536" y="922" fill="#1F1B16" font-size="30" font-family="Arial, PingFang SC, sans-serif" font-weight="700">鼓楼片区</text>
+  <text x="536" y="954" fill="#726758" font-size="20" font-family="Arial, PingFang SC, sans-serif">北京 · 东城区</text>
+  <rect x="536" y="974" width="104" height="32" rx="16" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="560" y="995" fill="#1F1B16" font-size="15" font-family="Arial, PingFang SC, sans-serif">胡同漫游</text>
+  <rect x="650" y="974" width="104" height="32" rx="16" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="680" y="995" fill="#1F1B16" font-size="15" font-family="Arial, PingFang SC, sans-serif">夜逛</text>
+  <text x="536" y="1040" fill="#4F473E" font-size="18" font-family="Arial, PingFang SC, sans-serif">适合边走边看店，周边可继续串联什刹海</text>
+
+  <rect x="968" y="668" width="416" height="420" rx="24" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <rect x="992" y="692" width="368" height="190" rx="16" fill="#E6DED0"/>
+  <text x="992" y="922" fill="#1F1B16" font-size="30" font-family="Arial, PingFang SC, sans-serif" font-weight="700">武康路安福路</text>
+  <text x="992" y="954" fill="#726758" font-size="20" font-family="Arial, PingFang SC, sans-serif">上海 · 徐汇区</text>
+  <rect x="992" y="974" width="104" height="32" rx="16" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="1016" y="995" fill="#1F1B16" font-size="15" font-family="Arial, PingFang SC, sans-serif">买手店</text>
+  <rect x="1106" y="974" width="104" height="32" rx="16" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="1136" y="995" fill="#1F1B16" font-size="15" font-family="Arial, PingFang SC, sans-serif">拍照</text>
+  <text x="992" y="1040" fill="#4F473E" font-size="18" font-family="Arial, PingFang SC, sans-serif">街景审美强，店铺密度高，适合周末慢逛</text>
+</svg>

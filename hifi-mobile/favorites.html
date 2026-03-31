@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>移动收藏页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="screen-shell">
+      <main class="screen">
+        <header class="topbar subpage">
+          <a class="nav-back" href="./home.html">
+            <span class="icon-btn"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-chevron-left"></use></svg></span>
+          </a>
+          <div class="nav-title">收藏</div>
+          <a class="icon-btn" href="./profile.html" aria-label="我的">
+            <svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg>
+          </a>
+        </header>
+
+        <section class="page-intro">
+          <div class="page-kicker">Favorites</div>
+          <h1 class="page-title">收藏街区</h1>
+          <div class="page-subtitle">按城市归类，下面再按具体街区展开，方便回看和规划下一次出门。</div>
+        </section>
+
+        <section class="section fav-group">
+          <div class="fav-head">
+            <div class="fav-city">深圳</div>
+            <div class="fav-count">2 个街区</div>
+          </div>
+          <article class="card result-card">
+            <div class="thumb"></div>
+            <div>
+              <div class="result-title">南头古城</div>
+              <div class="item-copy">南山区 / 历史街区 / 咖啡多 / 3-5 小时</div>
+              <div class="tag-row" style="margin-top: 10px;">
+                <span class="stat-pill">2,468 人收藏</span>
+                <span class="stat-pill">免费进入</span>
+                <span class="stat-pill">傍晚更好逛</span>
+              </div>
+              <div class="action-row" style="margin-top: 12px;">
+                <a class="ghost-btn" href="./place.html">
+                  <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-arrow-up-right"></use></svg>
+                  <span>详情</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card result-card">
+            <div class="thumb" style="background: linear-gradient(145deg, #705948 0%, #c7986e 44%, #516159 100%);"></div>
+            <div>
+              <div class="result-title">华侨城创意园</div>
+              <div class="item-copy">南山区 / 创意园区 / 适合白天 / 半天</div>
+              <div class="tag-row" style="margin-top: 10px;">
+                <span class="stat-pill">1,126 人收藏</span>
+                <span class="stat-pill">设计店</span>
+                <span class="stat-pill">展览可逛</span>
+              </div>
+              <div class="action-row" style="margin-top: 12px;">
+                <a class="ghost-btn" href="./place.html">
+                  <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-arrow-up-right"></use></svg>
+                  <span>详情</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="section fav-group">
+          <div class="fav-head">
+            <div class="fav-city">上海</div>
+            <div class="fav-count">1 个街区</div>
+          </div>
+          <article class="card result-card">
+            <div class="thumb" style="background: linear-gradient(145deg, #7a6557 0%, #d0a887 45%, #617472 100%);"></div>
+            <div>
+              <div class="result-title">武康路安福路</div>
+              <div class="item-copy">徐汇区 / 买手店 / 适合拍照 / 4-6 小时</div>
+              <div class="tag-row" style="margin-top: 10px;">
+                <span class="stat-pill">3,184 人收藏</span>
+                <span class="stat-pill">中高消费</span>
+                <span class="stat-pill">周末更热闹</span>
+              </div>
+              <div class="action-row" style="margin-top: 12px;">
+                <a class="ghost-btn" href="./place.html">
+                  <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-arrow-up-right"></use></svg>
+                  <span>详情</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="section fav-group">
+          <div class="fav-head">
+            <div class="fav-city">北京</div>
+            <div class="fav-count">1 个街区</div>
+          </div>
+          <article class="card result-card">
+            <div class="thumb" style="background: linear-gradient(145deg, #6f5748 0%, #bf936f 45%, #50636e 100%);"></div>
+            <div>
+              <div class="result-title">鼓楼片区</div>
+              <div class="item-copy">东城区 / 胡同漫游 / 夜逛友好 / 半天</div>
+              <div class="tag-row" style="margin-top: 10px;">
+                <span class="stat-pill">1,932 人收藏</span>
+                <span class="stat-pill">30 - 80 / 人</span>
+                <span class="stat-pill">夜逛友好</span>
+              </div>
+              <div class="action-row" style="margin-top: 12px;">
+                <a class="ghost-btn" href="./place.html">
+                  <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-arrow-up-right"></use></svg>
+                  <span>详情</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <nav class="bottom-nav">
+        <a class="bottom-item" href="./home.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-home"></use></svg></span><span>发现</span></a>
+        <a class="bottom-item" href="./search.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg></span><span>搜索</span></a>
+        <a class="bottom-item active" href="./favorites.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg></span><span>收藏</span></a>
+        <a class="bottom-item" href="./profile.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg></span><span>我的</span></a>
+      </nav>
+    </div>
+  </body>
+</html>

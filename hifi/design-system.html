@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>设计系统</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">逛</div>
+          <div>
+            <div class="brand-title">设计系统</div>
+            <div class="brand-subtitle">颜色、字体、组件和页面规则</div>
+          </div>
+        </div>
+        <nav class="nav">
+          <a class="nav-pill" href="./index.html">总览</a>
+          <span class="nav-pill active">设计系统</span>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="eyebrow">Design Tokens</div>
+        <h1 class="headline small">这套界面不是通用旅游风，<br />而是偏生活方式杂志感的街区指南。</h1>
+        <p class="hero-copy">
+          视觉核心是暖色纸感底、复古一点的标题字、松弛但不松散的信息层级，以及能够承载图片氛围和知识卡片内容的中密度布局。
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <div><h2 class="section-title">核心颜色</h2></div>
+        </div>
+        <div class="swatch-grid">
+          <div class="swatch">
+            <div class="swatch-color" style="background:#f6f0e5;"></div>
+            <div class="swatch-meta"><strong>Background</strong><span>#F6F0E5</span></div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#ca6837;"></div>
+            <div class="swatch-meta"><strong>Accent</strong><span>#CA6837</span></div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#48533f;"></div>
+            <div class="swatch-meta"><strong>Olive</strong><span>#48533F</span></div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#1f231d;"></div>
+            <div class="swatch-meta"><strong>Ink</strong><span>#1F231D</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <div><h2 class="section-title">字体层级</h2></div>
+        </div>
+        <div class="grid-2">
+          <div class="type-spec">
+            <div class="sample headline small" style="margin:0;">街区级大标题</div>
+            <div class="section-note">用于首页 Hero、城市页、核心空状态页面。</div>
+          </div>
+          <div class="type-spec">
+            <div class="sample section-title" style="margin:0;">模块标题</div>
+            <div class="section-note">用于页面分区和卡片区块标题。</div>
+          </div>
+          <div class="type-spec">
+            <div class="sample item-title" style="margin:0;">卡片标题</div>
+            <div class="section-note">用于地点卡片、店铺卡片、列表项标题。</div>
+          </div>
+          <div class="type-spec">
+            <div class="sample detail-copy" style="margin:0;">正文说明文字</div>
+            <div class="section-note">用于知识摘要、路线建议、空状态说明。</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <div><h2 class="section-title">核心组件</h2></div>
+        </div>
+        <div class="grid-2">
+          <div class="type-spec">
+            <div class="component-row">
+              <button class="accent-button">主要按钮</button>
+              <button class="ghost-button">次要按钮</button>
+              <a class="text-button" href="#">文本操作</a>
+            </div>
+          </div>
+          <div class="type-spec">
+            <div class="component-row">
+              <span class="chip active">标签 Chip</span>
+              <span class="tag">街区 Tag</span>
+              <span class="stat-pill">2,468 人收藏</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <div><h2 class="section-title">页面规范</h2></div>
+        </div>
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-value">01</div>
+            <div class="metric-label">每页都要有明确离开路径，不能出现死胡同。</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">02</div>
+            <div class="metric-label">街区卡片必须展示收藏数和最少一条决策信息。</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">03</div>
+            <div class="metric-label">图片如对外展示，必须有来源平台和作者信息。</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">04</div>
+            <div class="metric-label">空状态与错误状态必须有返回首页或继续探索入口。</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

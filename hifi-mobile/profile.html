@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>移动个人中心</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="screen-shell">
+      <main class="screen">
+        <header class="topbar subpage">
+          <a class="nav-back" href="./home.html">
+            <span class="icon-btn"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-chevron-left"></use></svg></span>
+          </a>
+          <div class="nav-title">我的</div>
+          <div class="nav-spacer"></div>
+        </header>
+
+        <section class="page-intro">
+          <div class="page-kicker">Profile</div>
+          <h1 class="page-title">个人中心</h1>
+          <div class="page-subtitle">这里只放账号和设置，不混入收藏内容。</div>
+        </section>
+
+        <section class="card list-card">
+          <div class="section-header">
+            <div>
+              <h1 class="section-title">Denny</h1>
+              <div class="section-note">账号已登录</div>
+            </div>
+          </div>
+          <div class="info-list">
+            <div class="info-row">
+              <div class="info-label">昵称</div>
+              <div class="info-value">Denny</div>
+            </div>
+            <div class="info-row">
+              <div class="info-label">账号</div>
+              <div class="info-value">denny@example.com</div>
+            </div>
+            <div class="info-row">
+              <div class="info-label">收藏入口</div>
+              <div class="info-value">前往单独的收藏页查看按城市归类的街区。</div>
+            </div>
+          </div>
+          <div class="action-row" style="margin-top: 16px;">
+            <a class="ghost-btn" href="./favorites.html">
+              <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg>
+              <span>收藏</span>
+            </a>
+            <a class="ghost-btn" href="./profile.html">
+              <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-pencil"></use></svg>
+              <span>资料</span>
+            </a>
+            <a class="ghost-btn" href="./profile-empty.html">
+              <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-log-out"></use></svg>
+              <span>退出</span>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <nav class="bottom-nav">
+        <a class="bottom-item" href="./home.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-home"></use></svg></span><span>发现</span></a>
+        <a class="bottom-item" href="./search.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg></span><span>搜索</span></a>
+        <a class="bottom-item" href="./favorites.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg></span><span>收藏</span></a>
+        <a class="bottom-item active" href="./profile.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg></span><span>我的</span></a>
+      </nav>
+    </div>
+  </body>
+</html>

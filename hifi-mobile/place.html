@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>移动地点详情</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="screen-shell">
+      <main class="screen">
+        <header class="topbar subpage">
+          <a class="nav-back" href="./search.html">
+            <span class="icon-btn"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-chevron-left"></use></svg></span>
+          </a>
+          <div class="nav-title">街区详情</div>
+          <a class="icon-btn" href="./login.html" aria-label="收藏">
+            <svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg>
+          </a>
+        </header>
+
+        <section class="page-intro">
+          <div class="page-kicker">Shenzhen · Nanshan</div>
+          <h1 class="page-title">南头古城</h1>
+          <div class="page-subtitle">一个适合半天慢慢走、边看空间边逛小店的旧城街区。</div>
+        </section>
+
+        <section class="hero-card detail-hero">
+          <div class="eyebrow">Place Detail</div>
+          <h2 class="headline">一个适合半天慢慢走的旧城街区。</h2>
+          <p class="hero-copy">旧城巷子、更新空间、咖啡馆和小展览形成一种连续感，适合周末慢逛。</p>
+          <div class="tag-row">
+            <span class="stat-pill">2,468 人收藏</span>
+            <span class="stat-pill">热门街区 No. 3</span>
+          </div>
+          <div class="action-row">
+            <a class="accent-btn" href="./login.html">
+              <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg>
+              <span>收藏</span>
+            </a>
+            <a class="ghost-btn" href="#sources">
+              <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-arrow-up-right"></use></svg>
+              <span>帖子</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="gallery-main"></div>
+          <div class="gallery-row" style="margin-top: 10px;">
+            <div class="thumb-small"></div>
+            <div class="thumb-small" style="background: linear-gradient(145deg, #7b5e4a 0%, #d0a47f 48%, #5b6b61 100%);"></div>
+            <div class="thumb-small" style="background: linear-gradient(145deg, #8f7256 0%, #c89f77 48%, #42574b 100%);"></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2 class="section-title">实用信息</h2>
+          </div>
+          <div class="info-list">
+            <div class="info-row"><div class="info-label">参考营业时间</div><div class="info-value">10:00 - 22:00 左右</div></div>
+            <div class="info-row"><div class="info-label">消费参考</div><div class="info-value">免费进入，咖啡多在 30 - 80 元</div></div>
+            <div class="info-row"><div class="info-label">推荐时段</div><div class="info-value">傍晚到夜间更有层次</div></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2 class="section-title">街区介绍</h2>
+          </div>
+          <article class="card list-card">
+            <p class="copy" style="margin:0;">
+              南头古城适合喜欢空间层次、旧城肌理和街区更新感的用户，不是标准化商业街，更适合边走边停。
+            </p>
+          </article>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2 class="section-title">店铺参考</h2>
+          </div>
+          <div class="list">
+            <div class="card list-card">
+              <div class="item-title">某咖啡店</div>
+              <div class="item-copy">适合中途停留，参考消费 38 - 52 元。</div>
+            </div>
+            <div class="card list-card">
+              <div class="item-title">某文创选物店</div>
+              <div class="item-copy">适合顺路逛，帮助建立街区内容感。</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="sources">
+          <div class="section-header">
+            <h2 class="section-title">来源链接</h2>
+          </div>
+          <div class="list">
+            <div class="card list-card">
+              <div class="item-title">小红书帖子合集</div>
+              <div class="item-copy">看拍照角度和踩点路线。</div>
+            </div>
+            <div class="card list-card">
+              <div class="item-title">点评平台链接</div>
+              <div class="item-copy">看营业时间和用户消费反馈。</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <nav class="bottom-nav">
+        <a class="bottom-item" href="./home.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-home"></use></svg></span><span>发现</span></a>
+        <a class="bottom-item" href="./search.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg></span><span>搜索</span></a>
+        <a class="bottom-item" href="./login.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg></span><span>收藏</span></a>
+        <a class="bottom-item" href="./login.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg></span><span>我的</span></a>
+      </nav>
+    </div>
+  </body>
+</html>

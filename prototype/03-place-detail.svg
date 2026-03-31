@@ -1,0 +1,67 @@
+<svg width="1440" height="1540" viewBox="0 0 1440 1540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1540" fill="#F4F1EA"/>
+  <rect x="56" y="40" width="1328" height="74" rx="18" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="92" y="86" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">首页 / 深圳 / 南头古城</text>
+
+  <rect x="56" y="140" width="1328" height="340" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <rect x="792" y="168" width="560" height="284" rx="20" fill="#E6DED0"/>
+  <text x="92" y="214" fill="#1F1B16" font-size="52" font-family="Arial, PingFang SC, sans-serif" font-weight="700">南头古城</text>
+  <text x="92" y="256" fill="#726758" font-size="24" font-family="Arial, PingFang SC, sans-serif">深圳 · 南山区</text>
+  <text x="92" y="304" fill="#4F473E" font-size="24" font-family="Arial, PingFang SC, sans-serif">旧城纹理和新店铺并存，适合半天到一天的街区闲逛。</text>
+  <rect x="92" y="340" width="108" height="34" rx="17" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="118" y="362" fill="#1F1B16" font-size="16" font-family="Arial, PingFang SC, sans-serif">历史街区</text>
+  <rect x="212" y="340" width="94" height="34" rx="17" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="242" y="362" fill="#1F1B16" font-size="16" font-family="Arial, PingFang SC, sans-serif">咖啡多</text>
+  <rect x="318" y="340" width="94" height="34" rx="17" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="348" y="362" fill="#1F1B16" font-size="16" font-family="Arial, PingFang SC, sans-serif">适合拍照</text>
+
+  <rect x="92" y="392" width="176" height="52" rx="26" fill="#C96C3A"/>
+  <text x="142" y="425" fill="white" font-size="22" font-family="Arial, PingFang SC, sans-serif">看真实帖子</text>
+  <rect x="284" y="392" width="156" height="52" rx="26" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="334" y="425" fill="#1F1B16" font-size="22" font-family="Arial, PingFang SC, sans-serif">收藏</text>
+
+  <rect x="56" y="516" width="888" height="300" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="92" y="566" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">图片参考</text>
+  <rect x="92" y="590" width="404" height="190" rx="16" fill="#E6DED0"/>
+  <rect x="516" y="590" width="184" height="88" rx="14" fill="#E6DED0"/>
+  <rect x="720" y="590" width="184" height="88" rx="14" fill="#E6DED0"/>
+  <rect x="516" y="692" width="184" height="88" rx="14" fill="#E6DED0"/>
+  <rect x="720" y="692" width="184" height="88" rx="14" fill="#E6DED0"/>
+
+  <rect x="972" y="516" width="412" height="300" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="1008" y="566" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">实用信息</text>
+  <text x="1008" y="624" fill="#4F473E" font-size="20" font-family="Arial, PingFang SC, sans-serif">参考营业时间：10:00 - 22:00</text>
+  <text x="1008" y="672" fill="#4F473E" font-size="20" font-family="Arial, PingFang SC, sans-serif">消费参考：免费进入 / 咖啡 30 - 60 元</text>
+  <text x="1008" y="720" fill="#4F473E" font-size="20" font-family="Arial, PingFang SC, sans-serif">建议时段：傍晚到夜间更有氛围</text>
+  <text x="1008" y="768" fill="#4F473E" font-size="20" font-family="Arial, PingFang SC, sans-serif">推荐时长：3 - 5 小时</text>
+  <text x="1008" y="802" fill="#726758" font-size="16" font-family="Arial, PingFang SC, sans-serif">信息需标注更新时间与来源</text>
+
+  <rect x="56" y="852" width="888" height="264" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="92" y="902" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">街区介绍</text>
+  <rect x="92" y="934" width="816" height="22" rx="11" fill="#E6DED0"/>
+  <rect x="92" y="972" width="796" height="22" rx="11" fill="#E6DED0"/>
+  <rect x="92" y="1010" width="778" height="22" rx="11" fill="#E6DED0"/>
+  <rect x="92" y="1048" width="640" height="22" rx="11" fill="#E6DED0"/>
+
+  <rect x="972" y="852" width="412" height="264" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="1008" y="902" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">决策提示</text>
+  <text x="1008" y="954" fill="#4F473E" font-size="20" font-family="Arial, PingFang SC, sans-serif">适合：周末散步、拍照、咖啡店爱好者</text>
+  <text x="1008" y="998" fill="#4F473E" font-size="20" font-family="Arial, PingFang SC, sans-serif">是否值得专程去：适合与周边点位连逛</text>
+  <text x="1008" y="1042" fill="#4F473E" font-size="20" font-family="Arial, PingFang SC, sans-serif">附近可串联：华侨城创意园、深圳湾</text>
+
+  <rect x="56" y="1152" width="1328" height="208" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="92" y="1202" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">代表店铺参考</text>
+  <rect x="92" y="1232" width="394" height="92" rx="16" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <text x="116" y="1270" fill="#1F1B16" font-size="22" font-family="Arial, PingFang SC, sans-serif">某咖啡店</text>
+  <text x="116" y="1300" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">适合坐一会 / 外观好拍 / 40 元左右</text>
+  <rect x="522" y="1232" width="394" height="92" rx="16" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <text x="546" y="1270" fill="#1F1B16" font-size="22" font-family="Arial, PingFang SC, sans-serif">某杂货店</text>
+  <text x="546" y="1300" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">文创 / 选物 / 适合顺路逛</text>
+  <rect x="952" y="1232" width="394" height="92" rx="16" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <text x="976" y="1270" fill="#1F1B16" font-size="22" font-family="Arial, PingFang SC, sans-serif">某小馆</text>
+  <text x="976" y="1300" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">简餐 / 可作为中途补给</text>
+
+  <rect x="56" y="1396" width="1328" height="100" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="92" y="1452" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">外部内容链接</text>
+  <text x="404" y="1452" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">小红书帖子 / 点评链接 / 官方公众号 / 深度攻略文章</text>
+</svg>

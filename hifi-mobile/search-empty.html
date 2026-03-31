@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>移动搜索空状态</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="screen-shell">
+      <main class="screen">
+        <header class="topbar subpage">
+          <a class="nav-back" href="./home.html">
+            <span class="icon-btn"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-chevron-left"></use></svg></span>
+          </a>
+          <div class="nav-title">搜索</div>
+          <div class="nav-spacer"></div>
+        </header>
+
+        <section class="page-intro">
+          <div class="page-kicker">No Results</div>
+          <h1 class="page-title">没有找到结果</h1>
+          <div class="page-subtitle">这个关键词暂时没有完全匹配的街区，但你还可以继续探索。</div>
+        </section>
+
+        <section class="hero-card">
+          <div class="search-card" style="margin-top:0;">
+            <div class="search-input">
+              <div class="search-label">搜索关键词</div>
+              <div class="search-value">深圳 一个不存在的街区</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <article class="card empty-state">
+            <div>
+              <div class="empty-orb"></div>
+              <div class="eyebrow">Search Fallback</div>
+              <h2 class="section-title" style="margin-bottom: 12px;">没有找到完全匹配的街区</h2>
+              <p class="copy" style="max-width: 320px; margin: 0 auto;">
+                可以换一个更短的关键词，或者先从城市和风格标签开始逛。
+              </p>
+              <div class="action-row" style="justify-content: center; margin-top: 22px;">
+                <a class="accent-btn" href="./home.html">
+                  <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-home"></use></svg>
+                  <span>发现</span>
+                </a>
+                <a class="ghost-btn" href="./search.html">
+                  <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg>
+                  <span>搜索</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <nav class="bottom-nav">
+        <a class="bottom-item" href="./home.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-home"></use></svg></span><span>发现</span></a>
+        <a class="bottom-item active" href="./search.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg></span><span>搜索</span></a>
+        <a class="bottom-item" href="./login.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg></span><span>收藏</span></a>
+        <a class="bottom-item" href="./login.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg></span><span>我的</span></a>
+      </nav>
+    </div>
+  </body>
+</html>

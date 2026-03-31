@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>移动设计系统</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="screen-shell">
+      <main class="screen">
+        <header class="topbar subpage">
+          <a class="nav-back" href="./index.html">
+            <span class="icon-btn"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-chevron-left"></use></svg></span>
+          </a>
+          <div class="nav-title">设计系统</div>
+          <div class="nav-spacer"></div>
+        </header>
+
+        <section class="page-intro">
+          <div class="page-kicker">Mobile Rules</div>
+          <h1 class="page-title">移动设计系统</h1>
+          <div class="page-subtitle">统一手机端的标题区、按钮、卡片、底部导航和空状态规则。</div>
+        </section>
+
+        <section class="hero-card">
+          <h2 class="headline">移动端要快、清楚、能单手继续操作。</h2>
+        </section>
+
+        <section class="section">
+          <div class="section-header"><h2 class="section-title">核心组件</h2></div>
+          <div class="list">
+            <div class="card list-card">
+              <div class="tag-row">
+                <button class="accent-btn"><svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg><span>主要按钮</span></button>
+                <button class="ghost-btn"><svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg><span>次要按钮</span></button>
+              </div>
+            </div>
+            <div class="card list-card">
+              <div class="tag-row">
+                <span class="chip active">筛选 Chip</span>
+                <span class="tag">街区 Tag</span>
+                <span class="stat-pill">2,468 人收藏</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header"><h2 class="section-title">页面规则</h2></div>
+          <div class="list">
+            <div class="card list-card">
+              <div class="item-title">01 顶部信息必须简短</div>
+              <div class="item-copy">移动端标题、地点和动作入口不能互相挤压。</div>
+            </div>
+            <div class="card list-card">
+              <div class="item-title">02 底部导航承接高频操作</div>
+              <div class="item-copy">发现、搜索、收藏、我是一级高频入口。</div>
+            </div>
+            <div class="card list-card">
+              <div class="item-title">03 空状态必须有去路</div>
+              <div class="item-copy">所有空状态都要有返回首页或继续搜索。</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 新增：统一设计系统 -->
+        <section class="section">
+          <div class="section-header"><h2 class="section-title">统一设计系统</h2></div>
+          <div class="list">
+            <div class="card list-card">
+              <div class="item-title">🎨 颜色系统</div>
+              <div class="item-copy">
+                <div style="display: flex; gap: var(--space-2); margin-top: var(--space-2);">
+                  <div style="width: 20px; height: 20px; background: var(--bg); border: 1px solid var(--line); border-radius: 4px;"></div>
+                  <div style="width: 20px; height: 20px; background: var(--panel); border: 1px solid var(--line); border-radius: 4px;"></div>
+                  <div style="width: 20px; height: 20px; background: var(--ink); border-radius: 4px;"></div>
+                  <div style="width: 20px; height: 20px; background: var(--accent); border-radius: 4px;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card list-card">
+              <div class="item-title">📏 间距系统 (基于8px网格)</div>
+              <div class="item-copy">
+                <div style="font-size: var(--text-xs); color: var(--subtle); margin-top: var(--space-2);">
+                  var(--space-1): 4px | var(--space-2): 8px | var(--space-4): 16px<br>
+                  var(--space-6): 24px | var(--space-8): 32px | var(--space-12): 48px
+                </div>
+              </div>
+            </div>
+            <div class="card list-card">
+              <div class="item-title">🔘 按钮系统</div>
+              <div class="item-copy">
+                <div style="display: flex; gap: var(--space-3); margin-top: var(--space-2);">
+                  <button class="accent-btn" style="font-size: var(--text-sm);">主要按钮</button>
+                  <button class="ghost-btn" style="font-size: var(--text-sm);">次要按钮</button>
+                  <button class="icon-btn" style="font-size: var(--text-sm);">
+                    <svg class="ui-icon" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card list-card">
+              <div class="item-title">📄 卡片系统</div>
+              <div class="item-copy">
+                <div style="margin-top: var(--space-2);">
+                  <div class="card" style="padding: var(--space-4); margin-bottom: var(--space-3);">
+                    <div class="item-title">标准卡片</div>
+                    <div class="item-copy">内边距: var(--space-4) (16px)</div>
+                  </div>
+                  <div class="hero-card" style="margin-bottom: 0;">
+                    <div class="item-title">英雄卡片</div>
+                    <div class="item-copy">内边距: var(--space-6) var(--space-5) (24px 20px)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

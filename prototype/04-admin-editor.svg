@@ -1,0 +1,64 @@
+<svg width="1440" height="1240" viewBox="0 0 1440 1240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1240" fill="#F4F1EA"/>
+  <rect x="32" y="32" width="264" height="1176" rx="22" fill="#2A241D"/>
+  <text x="72" y="86" fill="#F8F2E8" font-size="30" font-family="Arial, PingFang SC, sans-serif" font-weight="700">运营后台</text>
+  <rect x="56" y="126" width="216" height="52" rx="16" fill="#C96C3A"/>
+  <text x="104" y="160" fill="white" font-size="20" font-family="Arial, PingFang SC, sans-serif">地点管理</text>
+  <rect x="56" y="194" width="216" height="52" rx="16" fill="#3A342D"/>
+  <text x="104" y="228" fill="#F8F2E8" font-size="20" font-family="Arial, PingFang SC, sans-serif">图片管理</text>
+  <rect x="56" y="262" width="216" height="52" rx="16" fill="#3A342D"/>
+  <text x="104" y="296" fill="#F8F2E8" font-size="20" font-family="Arial, PingFang SC, sans-serif">链接管理</text>
+
+  <rect x="328" y="32" width="1080" height="88" rx="22" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="368" y="86" fill="#1F1B16" font-size="30" font-family="Arial, PingFang SC, sans-serif" font-weight="700">编辑地点：南头古城</text>
+  <rect x="1148" y="52" width="110" height="44" rx="22" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="1186" y="80" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">预览</text>
+  <rect x="1276" y="52" width="92" height="44" rx="22" fill="#C96C3A"/>
+  <text x="1304" y="80" fill="white" font-size="18" font-family="Arial, PingFang SC, sans-serif">保存</text>
+
+  <rect x="328" y="148" width="676" height="1028" rx="26" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="364" y="200" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">基础信息</text>
+  <text x="364" y="246" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">地点名称</text>
+  <rect x="364" y="260" width="604" height="48" rx="12" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="364" y="344" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">城市 / 区域</text>
+  <rect x="364" y="358" width="288" height="48" rx="12" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <rect x="680" y="358" width="288" height="48" rx="12" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="364" y="442" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">一句话描述</text>
+  <rect x="364" y="456" width="604" height="48" rx="12" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="364" y="540" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">详细介绍</text>
+  <rect x="364" y="554" width="604" height="156" rx="12" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="364" y="746" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">实用信息</text>
+  <rect x="364" y="760" width="288" height="48" rx="12" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <rect x="680" y="760" width="288" height="48" rx="12" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <rect x="364" y="828" width="288" height="48" rx="12" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <rect x="680" y="828" width="288" height="48" rx="12" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="364" y="934" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">标签</text>
+  <rect x="364" y="948" width="124" height="36" rx="18" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="396" y="971" fill="#1F1B16" font-size="16" font-family="Arial, PingFang SC, sans-serif">历史街区</text>
+  <rect x="500" y="948" width="124" height="36" rx="18" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="536" y="971" fill="#1F1B16" font-size="16" font-family="Arial, PingFang SC, sans-serif">咖啡多</text>
+  <rect x="636" y="948" width="124" height="36" rx="18" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="668" y="971" fill="#1F1B16" font-size="16" font-family="Arial, PingFang SC, sans-serif">适合拍照</text>
+
+  <rect x="1032" y="148" width="376" height="326" rx="26" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="1068" y="200" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">图片管理</text>
+  <rect x="1068" y="226" width="304" height="140" rx="16" fill="#E6DED0" stroke="#4F473E" stroke-width="2" stroke-dasharray="10 10"/>
+  <text x="1140" y="306" fill="#726758" font-size="20" font-family="Arial, PingFang SC, sans-serif">拖拽上传 / 选择图片</text>
+  <rect x="1068" y="388" width="88" height="68" rx="12" fill="#E6DED0"/>
+  <rect x="1176" y="388" width="88" height="68" rx="12" fill="#E6DED0"/>
+  <rect x="1284" y="388" width="88" height="68" rx="12" fill="#E6DED0"/>
+
+  <rect x="1032" y="502" width="376" height="294" rx="26" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="1068" y="554" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">店铺参考</text>
+  <rect x="1068" y="582" width="304" height="64" rx="14" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <rect x="1068" y="660" width="304" height="64" rx="14" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <rect x="1068" y="738" width="304" height="40" rx="20" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="1172" y="764" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">+ 新增店铺参考</text>
+
+  <rect x="1032" y="824" width="376" height="352" rx="26" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <text x="1068" y="876" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">外部链接</text>
+  <rect x="1068" y="904" width="304" height="64" rx="14" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <rect x="1068" y="982" width="304" height="64" rx="14" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <rect x="1068" y="1060" width="304" height="40" rx="20" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="1172" y="1086" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">+ 新增链接</text>
+</svg>

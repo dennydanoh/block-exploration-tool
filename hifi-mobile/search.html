@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>移动搜索结果</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="screen-shell">
+      <main class="screen">
+        <header class="topbar subpage">
+          <a class="nav-back" href="./home.html">
+            <span class="icon-btn"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-chevron-left"></use></svg></span>
+          </a>
+          <div class="nav-title">搜索</div>
+          <a class="icon-btn" href="./login.html" aria-label="收藏">
+            <svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg>
+          </a>
+        </header>
+
+        <section class="page-intro">
+          <div class="page-kicker">Search Results</div>
+          <h1 class="page-title">搜索结果</h1>
+          <div class="page-subtitle">关键词：深圳 南头古城，共 12 个相关街区。</div>
+        </section>
+
+        <section class="hero-card">
+          <div class="search-card" style="margin-top:0;">
+            <div class="search-input">
+              <div class="search-label">搜索关键词</div>
+              <div class="search-value">深圳 南头古城</div>
+            </div>
+            <div class="chip-row">
+              <span class="chip active">深圳</span>
+              <span class="chip active">历史街区</span>
+              <span class="chip">咖啡多</span>
+              <span class="chip">适合拍照</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2 class="section-title">相关街区</h2>
+            <span class="section-note">12 个结果</span>
+          </div>
+          <div class="list">
+            <article class="card result-card">
+              <div class="thumb"></div>
+              <div>
+                <div class="result-title">南头古城</div>
+                <div class="item-copy">深圳 · 南山区 / 旧城更新 / 3-5 小时</div>
+                <div class="tag-row" style="margin-top: 10px;">
+                  <span class="stat-pill">2,468 人收藏</span>
+                  <span class="stat-pill">免费进入</span>
+                </div>
+                <div class="action-row" style="margin-top: 12px;">
+                  <a class="accent-btn" href="./place.html">
+                    <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-arrow-up-right"></use></svg>
+                    <span>详情</span>
+                  </a>
+                  <a class="ghost-btn" href="./login.html">
+                    <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg>
+                    <span>收藏</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card result-card">
+              <div class="thumb" style="background: linear-gradient(145deg, #705948 0%, #c7986e 44%, #516159 100%);"></div>
+              <div>
+                <div class="result-title">华侨城创意园</div>
+                <div class="item-copy">深圳 · 南山区 / 创意园区 / 半天</div>
+                <div class="tag-row" style="margin-top: 10px;">
+                  <span class="stat-pill">1,126 人收藏</span>
+                  <span class="stat-pill">中等消费</span>
+                </div>
+                <div class="action-row" style="margin-top: 12px;">
+                  <a class="ghost-btn" href="./place.html">
+                    <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-arrow-up-right"></use></svg>
+                    <span>详情</span>
+                  </a>
+                  <a class="ghost-btn" href="./login.html">
+                    <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg>
+                    <span>收藏</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2 class="section-title">相关搜索</h2>
+          </div>
+          <div class="chip-row">
+            <span class="chip">深圳 咖啡街区</span>
+            <span class="chip">南山区 文创园</span>
+            <span class="chip">适合拍照街区</span>
+          </div>
+        </section>
+      </main>
+
+      <nav class="bottom-nav">
+        <a class="bottom-item" href="./home.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-home"></use></svg></span><span>发现</span></a>
+        <a class="bottom-item active" href="./search.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg></span><span>搜索</span></a>
+        <a class="bottom-item" href="./login.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg></span><span>收藏</span></a>
+        <a class="bottom-item" href="./login.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg></span><span>我的</span></a>
+      </nav>
+    </div>
+  </body>
+</html>

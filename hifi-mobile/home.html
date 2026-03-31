@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>移动首页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="screen-shell">
+      <main class="screen">
+        <header class="topbar">
+          <div class="brand">
+            <div class="brand-mark">逛</div>
+            <div>
+              <div class="brand-title">街区漫游</div>
+              <div class="brand-subtitle">移动端发现页</div>
+            </div>
+          </div>
+          <div class="mini-nav">
+            <a class="icon-btn" href="./search.html" aria-label="搜索">
+              <svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg>
+            </a>
+            <a class="icon-btn" href="./login.html" aria-label="登录或进入我的">
+              <svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg>
+            </a>
+          </div>
+        </header>
+
+        <section class="hero-card">
+          <div class="eyebrow">Weekend Citywalk</div>
+          <h1 class="page-title">找一个今天就想出门逛的街区。</h1>
+          <p class="hero-copy">更偏小众、有调调、适合慢慢走的地方，不做传统景点导览。</p>
+          <div class="search-card">
+            <div class="search-input">
+              <div class="search-label">搜索城市、街区、风格</div>
+              <div class="search-value">深圳 南头古城 / 适合拍照的街区</div>
+            </div>
+            <div class="chip-row">
+              <span class="chip active">历史街区</span>
+              <span class="chip">咖啡密集</span>
+              <span class="chip">夜逛友好</span>
+            </div>
+            <a class="accent-btn" href="./search.html">
+              <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg>
+              <span>探索</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2 class="section-title">热门城市</h2>
+            <a class="section-note" href="./city.html">深圳</a>
+          </div>
+          <div class="scroll-row">
+            <div class="city-pill"><strong>北京</strong><span>胡同和夜逛更强。</span></div>
+            <div class="city-pill"><strong>上海</strong><span>买手店和街景强。</span></div>
+            <div class="city-pill"><strong>深圳</strong><span>城市更新片区多。</span></div>
+            <div class="city-pill"><strong>成都</strong><span>更松弛，适合慢逛。</span></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2 class="section-title">编辑精选</h2>
+          </div>
+          <div class="list">
+            <article class="card place-card">
+              <div class="place-visual">
+                <span class="visual-caption">旧城肌理 + 新店铺密度</span>
+              </div>
+              <div class="place-content">
+                <div class="place-meta"><span>深圳 · 南山区</span><span>3-5 小时</span></div>
+                <h3 class="place-title">南头古城</h3>
+                <div class="tag-row">
+                  <span class="tag">历史街区</span>
+                  <span class="tag">咖啡多</span>
+                  <span class="tag">适合傍晚</span>
+                </div>
+                <p class="copy">适合把旧城巷子、独立小店和咖啡店放在同一次散步里逛完。</p>
+                <div class="tag-row" style="margin-top: 12px;">
+                  <span class="stat-pill">2,468 人收藏</span>
+                  <span class="stat-pill">免费进入</span>
+                </div>
+                <div class="action-row" style="margin-top: 14px;">
+                  <a class="accent-btn" href="./place.html">
+                    <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-arrow-up-right"></use></svg>
+                    <span>详情</span>
+                  </a>
+                  <a class="ghost-btn" href="./login.html">
+                    <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg>
+                    <span>收藏</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card place-card">
+              <div class="place-visual" style="background: linear-gradient(145deg, #715747 0%, #c89970 42%, #596b60 100%);">
+                <span class="visual-caption">胡同夜逛 + 路线漫游</span>
+              </div>
+              <div class="place-content">
+                <div class="place-meta"><span>北京 · 东城区</span><span>半天</span></div>
+                <h3 class="place-title">鼓楼片区</h3>
+                <div class="tag-row">
+                  <span class="tag">胡同漫游</span>
+                  <span class="tag">夜逛友好</span>
+                </div>
+                <div class="tag-row" style="margin-top: 12px;">
+                  <span class="stat-pill">1,932 人收藏</span>
+                  <span class="stat-pill">30 - 80 / 人</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <nav class="bottom-nav">
+        <a class="bottom-item active" href="./home.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-home"></use></svg></span><span>发现</span></a>
+        <a class="bottom-item" href="./search.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg></span><span>搜索</span></a>
+        <a class="bottom-item" href="./login.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg></span><span>收藏</span></a>
+        <a class="bottom-item" href="./login.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg></span><span>我的</span></a>
+      </nav>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<svg width="1440" height="1180" viewBox="0 0 1440 1180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1180" fill="#F4F1EA"/>
+  <rect x="56" y="40" width="1328" height="92" rx="20" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <rect x="88" y="62" width="870" height="48" rx="24" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="120" y="93" fill="#1F1B16" font-size="22" font-family="Arial, PingFang SC, sans-serif">深圳 南头古城</text>
+  <rect x="980" y="62" width="120" height="48" rx="24" fill="#C96C3A"/>
+  <text x="1016" y="93" fill="white" font-size="20" font-family="Arial, PingFang SC, sans-serif">搜索</text>
+  <rect x="1120" y="62" width="224" height="48" rx="24" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="1160" y="93" fill="#1F1B16" font-size="18" font-family="Arial, PingFang SC, sans-serif">城市 / 标签筛选</text>
+
+  <text x="56" y="182" fill="#1F1B16" font-size="28" font-family="Arial, PingFang SC, sans-serif" font-weight="700">搜索结果</text>
+  <text x="56" y="218" fill="#726758" font-size="20" font-family="Arial, PingFang SC, sans-serif">共 12 个地点，优先展示精确匹配和信息完整度较高的地点</text>
+
+  <rect x="56" y="250" width="860" height="860" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+  <rect x="944" y="250" width="440" height="860" rx="28" fill="#FFFDF8" stroke="#4F473E" stroke-width="3"/>
+
+  <text x="984" y="300" fill="#1F1B16" font-size="24" font-family="Arial, PingFang SC, sans-serif" font-weight="700">地图视图占位</text>
+  <rect x="980" y="332" width="368" height="710" rx="18" fill="#ECE3D4" stroke="#4F473E" stroke-width="2"/>
+  <circle cx="1080" cy="450" r="12" fill="#C96C3A"/>
+  <circle cx="1170" cy="540" r="12" fill="#C96C3A"/>
+  <circle cx="1250" cy="630" r="12" fill="#C96C3A"/>
+  <circle cx="1130" cy="760" r="12" fill="#C96C3A"/>
+  <text x="996" y="1080" fill="#726758" font-size="18" font-family="Arial, PingFang SC, sans-serif">二期可接真实地图；一期可先弱化为区域示意</text>
+
+  <rect x="88" y="286" width="796" height="190" rx="18" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <rect x="112" y="310" width="220" height="142" rx="14" fill="#E6DED0"/>
+  <text x="360" y="342" fill="#1F1B16" font-size="30" font-family="Arial, PingFang SC, sans-serif" font-weight="700">南头古城</text>
+  <text x="360" y="374" fill="#726758" font-size="20" font-family="Arial, PingFang SC, sans-serif">深圳 · 南山区</text>
+  <rect x="360" y="392" width="96" height="30" rx="15" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="384" y="412" fill="#1F1B16" font-size="14" font-family="Arial, PingFang SC, sans-serif">精确匹配</text>
+  <rect x="468" y="392" width="96" height="30" rx="15" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="492" y="412" fill="#1F1B16" font-size="14" font-family="Arial, PingFang SC, sans-serif">历史街区</text>
+  <rect x="576" y="392" width="96" height="30" rx="15" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="605" y="412" fill="#1F1B16" font-size="14" font-family="Arial, PingFang SC, sans-serif">咖啡多</text>
+  <text x="360" y="454" fill="#4F473E" font-size="18" font-family="Arial, PingFang SC, sans-serif">旧城更新氛围明显，适合半天散步逛店，夜间也可逛。</text>
+
+  <rect x="88" y="500" width="796" height="190" rx="18" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <rect x="112" y="524" width="220" height="142" rx="14" fill="#E6DED0"/>
+  <text x="360" y="556" fill="#1F1B16" font-size="30" font-family="Arial, PingFang SC, sans-serif" font-weight="700">华侨城创意园</text>
+  <text x="360" y="588" fill="#726758" font-size="20" font-family="Arial, PingFang SC, sans-serif">深圳 · 南山区</text>
+  <rect x="360" y="606" width="96" height="30" rx="15" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="384" y="626" fill="#1F1B16" font-size="14" font-family="Arial, PingFang SC, sans-serif">创意园区</text>
+  <rect x="468" y="606" width="96" height="30" rx="15" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="496" y="626" fill="#1F1B16" font-size="14" font-family="Arial, PingFang SC, sans-serif">展览</text>
+  <rect x="576" y="606" width="96" height="30" rx="15" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="605" y="626" fill="#1F1B16" font-size="14" font-family="Arial, PingFang SC, sans-serif">周末逛</text>
+  <text x="360" y="668" fill="#4F473E" font-size="18" font-family="Arial, PingFang SC, sans-serif">适合把咖啡、展览和设计店放在一条线里逛完。</text>
+
+  <rect x="88" y="714" width="796" height="190" rx="18" fill="#FBF7EF" stroke="#4F473E" stroke-width="2"/>
+  <rect x="112" y="738" width="220" height="142" rx="14" fill="#E6DED0"/>
+  <text x="360" y="770" fill="#1F1B16" font-size="30" font-family="Arial, PingFang SC, sans-serif" font-weight="700">较场尾</text>
+  <text x="360" y="802" fill="#726758" font-size="20" font-family="Arial, PingFang SC, sans-serif">深圳 · 大鹏新区</text>
+  <rect x="360" y="820" width="96" height="30" rx="15" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="384" y="840" fill="#1F1B16" font-size="14" font-family="Arial, PingFang SC, sans-serif">海边</text>
+  <rect x="468" y="820" width="96" height="30" rx="15" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="490" y="840" fill="#1F1B16" font-size="14" font-family="Arial, PingFang SC, sans-serif">民宿多</text>
+  <rect x="576" y="820" width="96" height="30" rx="15" fill="#F0E0C8" stroke="#4F473E" stroke-width="2"/>
+  <text x="600" y="840" fill="#1F1B16" font-size="14" font-family="Arial, PingFang SC, sans-serif">拍照</text>
+  <text x="360" y="882" fill="#4F473E" font-size="18" font-family="Arial, PingFang SC, sans-serif">更偏度假型轻漫游，适合周末专程出发。</text>
+
+  <text x="88" y="970" fill="#1F1B16" font-size="22" font-family="Arial, PingFang SC, sans-serif" font-weight="700">相关搜索</text>
+  <rect x="88" y="992" width="134" height="36" rx="18" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="112" y="1016" fill="#1F1B16" font-size="16" font-family="Arial, PingFang SC, sans-serif">深圳 咖啡街区</text>
+  <rect x="236" y="992" width="148" height="36" rx="18" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="260" y="1016" fill="#1F1B16" font-size="16" font-family="Arial, PingFang SC, sans-serif">深圳 适合拍照</text>
+  <rect x="398" y="992" width="144" height="36" rx="18" fill="#F7F1E5" stroke="#4F473E" stroke-width="2"/>
+  <text x="424" y="1016" fill="#1F1B16" font-size="16" font-family="Arial, PingFang SC, sans-serif">城市漫游路线</text>
+</svg>

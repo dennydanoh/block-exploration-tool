@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>移动空收藏页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="screen-shell">
+      <main class="screen">
+        <header class="topbar subpage">
+          <a class="nav-back" href="./home.html">
+            <span class="icon-btn"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-chevron-left"></use></svg></span>
+          </a>
+          <div class="nav-title">收藏</div>
+          <a class="icon-btn" href="./profile.html" aria-label="我的">
+            <svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg>
+          </a>
+        </header>
+
+        <section class="page-intro">
+          <div class="page-kicker">Favorites</div>
+          <h1 class="page-title">收藏街区</h1>
+          <div class="page-subtitle">你已经登录，但还没有收藏任何街区。</div>
+        </section>
+
+        <section class="section">
+          <article class="card empty-state">
+            <div>
+              <div class="empty-orb"></div>
+              <div class="eyebrow">No Favorites Yet</div>
+              <h2 class="section-title" style="margin-bottom: 12px;">先收藏几个想去的地方</h2>
+              <p class="copy" style="max-width: 300px; margin: 0 auto;">
+                在发现页、搜索页或街区详情页点收藏，之后会按城市归类出现在这里。
+              </p>
+              <div class="action-row" style="justify-content: center; margin-top: 22px;">
+                <a class="accent-btn" href="./home.html">
+                  <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-home"></use></svg>
+                  <span>发现</span>
+                </a>
+                <a class="ghost-btn" href="./search.html">
+                  <svg class="ui-icon btn-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg>
+                  <span>搜索</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <nav class="bottom-nav">
+        <a class="bottom-item" href="./home.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-home"></use></svg></span><span>发现</span></a>
+        <a class="bottom-item" href="./search.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-search"></use></svg></span><span>搜索</span></a>
+        <a class="bottom-item active" href="./favorites-empty.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-heart"></use></svg></span><span>收藏</span></a>
+        <a class="bottom-item" href="./profile.html"><span class="nav-glyph"><svg class="ui-icon" aria-hidden="true"><use href="./icons.svg#i-user"></use></svg></span><span>我的</span></a>
+      </nav>
+    </div>
+  </body>
+</html>

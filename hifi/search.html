@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>搜索结果页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">逛</div>
+          <div>
+            <div class="brand-title">搜索结果</div>
+            <div class="brand-subtitle">关键词：深圳 南头古城</div>
+          </div>
+        </div>
+        <nav class="nav">
+          <span class="nav-pill">发现</span>
+          <span class="nav-pill active">搜索</span>
+          <span class="nav-pill">城市</span>
+          <a class="nav-pill" href="./login.html">登录</a>
+          <a class="nav-pill" href="./profile.html">我的收藏</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="search-bar" style="margin-top: 0;">
+          <div class="search-input">
+            <div>
+              <div class="search-label">搜索关键词</div>
+              <div class="search-value">深圳 南头古城</div>
+            </div>
+          </div>
+          <div class="search-meta">
+            <span class="chip active">深圳</span>
+            <span class="chip active">历史街区</span>
+            <span class="chip">咖啡多</span>
+            <span class="chip">适合拍照</span>
+          </div>
+          <button class="accent-button">重新搜索</button>
+        </div>
+      </section>
+
+      <section class="layout-search">
+        <div class="result-stack">
+          <article class="card result-card">
+            <div class="result-visual"></div>
+            <div>
+              <div class="item-head">
+                <span class="score-chip">精确匹配 / 完整度 92%</span>
+                <span class="section-note">深圳 · 南山区</span>
+              </div>
+              <h2 class="card-title">南头古城</h2>
+              <div class="tag-row">
+                <span class="tag">历史街区</span>
+                <span class="tag">咖啡多</span>
+                <span class="tag">适合傍晚</span>
+              </div>
+              <p class="card-copy">
+                旧城纹理和新消费品牌混合度高，适合 3 到 5 小时慢逛。更适合喜欢街景、店铺和空间变化的人，不适合只想快速打卡一个点的用户。
+              </p>
+              <div class="stat-row" style="margin-top: 14px;">
+                <span class="stat-pill">参考消费：免费进入</span>
+                <span class="stat-pill">咖啡：30 - 60 元</span>
+                <span class="stat-pill">适合周末半天</span>
+                <span class="stat-pill">2,468 人收藏</span>
+              </div>
+              <div class="action-row" style="margin-top: 18px;">
+                <a class="accent-button" href="./place.html">查看详情</a>
+                <button class="ghost-button">收藏</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card result-card">
+            <div class="result-visual" style="background: linear-gradient(145deg, #705948 0%, #c7986e 44%, #516159 100%);"></div>
+            <div>
+              <div class="item-head">
+                <span class="score-chip" style="background: rgba(72, 83, 63, 0.12); color: var(--olive);">同城相似 / 完整度 89%</span>
+                <span class="section-note">深圳 · 南山区</span>
+              </div>
+              <h2 class="card-title">华侨城创意园</h2>
+              <div class="tag-row">
+                <span class="tag">创意园区</span>
+                <span class="tag">展览</span>
+                <span class="tag">设计感</span>
+              </div>
+              <p class="card-copy">
+                更偏创意园与内容活动型街区，适合把展览、咖啡和设计店放在同一次外出里。氛围相对更整齐，也更适合首次来深圳的用户。
+              </p>
+              <div class="stat-row" style="margin-top: 14px;">
+                <span class="stat-pill">参考消费：中等</span>
+                <span class="stat-pill">适合白天</span>
+                <span class="stat-pill">可与南头古城串联</span>
+                <span class="stat-pill">1,126 人收藏</span>
+              </div>
+              <div class="action-row" style="margin-top: 18px;">
+                <button class="ghost-button">查看详情</button>
+                <button class="ghost-button">收藏</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card result-card">
+            <div class="result-visual" style="background: linear-gradient(145deg, #8f755d 0%, #d2af83 45%, #4f6670 100%);"></div>
+            <div>
+              <div class="item-head">
+                <span class="score-chip" style="background: rgba(182, 149, 89, 0.16); color: #8a6a35;">度假型周边 / 完整度 74%</span>
+                <span class="section-note">深圳 · 大鹏新区</span>
+              </div>
+              <h2 class="card-title">较场尾</h2>
+              <div class="tag-row">
+                <span class="tag">海边</span>
+                <span class="tag">适合拍照</span>
+                <span class="tag">周末专程</span>
+              </div>
+              <p class="card-copy">
+                更偏周末目的地，不完全是“街区漫游”逻辑，适合用户想把闲逛和海边停留放在一起时考虑。
+              </p>
+              <div class="stat-row" style="margin-top: 14px;">
+                <span class="stat-pill">参考消费：中等偏高</span>
+                <span class="stat-pill">交通：通勤较远</span>
+                <span class="stat-pill">适合全天</span>
+                <span class="stat-pill">864 人收藏</span>
+              </div>
+              <div class="action-row" style="margin-top: 18px;">
+                <button class="ghost-button">查看详情</button>
+                <button class="ghost-button">收藏</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <aside class="card map-card">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title" style="font-size: 28px;">片区地图</h2>
+            </div>
+          </div>
+          <div class="map-surface">
+            <span class="map-label" style="left: 58px; top: 120px;">南头古城</span>
+            <span class="map-label alt" style="right: 72px; top: 240px;">华侨城创意园</span>
+            <span class="map-label" style="left: 120px; bottom: 160px;">蛇口老街</span>
+            <span class="map-label alt" style="right: 86px; bottom: 86px;">深圳湾</span>
+          </div>
+          <div class="mini-title">相关搜索</div>
+          <div class="tag-row">
+            <span class="chip">深圳 适合散步的地方</span>
+            <span class="chip">深圳 咖啡街区</span>
+            <span class="chip">南山区 文创园区</span>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
